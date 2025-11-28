@@ -70,7 +70,7 @@ Performed an RDP brute-force attack from the **Kali machine**:
 ### Splunk Observed Events
 - **4625** – Failed logon attempts  
 - **4624** – Successful logon
-![imagealt]()
+![imagealt](https://github.com/pwrod/Azure-Detection-Lab/blob/main/images/Atomic%20T1078%20logs.png?raw=true)
 
 ---
 
