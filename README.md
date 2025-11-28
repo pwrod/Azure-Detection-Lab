@@ -95,7 +95,7 @@ Simulates malicious PowerShell scripting activity.
 
 **Expected Logs:**  
 `4648` (plus Sysmon process creation logs)
-
+![altimage](https://github.com/pwrod/Azure-Detection-Lab/blob/main/images/Atomic%20logs%20T1059.png?raw=true)
 ---
 
 ## Test 3: T1562.002 – Disable Windows Event Logging
