@@ -70,7 +70,7 @@ Performed an RDP brute-force attack from the **Kali machine**:
 ### Splunk Observed Events
 - **4625** – Failed logon attempts  
 - **4624** – Successful logon
-![imagealt](https://github.com/pwrod/Azure-Detection-Lab/blob/main/images/Atomic%20T1078%20logs.png?raw=true)
+![imagealt](https://github.com/pwrod/Azure-Detection-Lab/blob/main/images/Hydra%20splunk%20logs.png?raw=true)
 
 ---
 
@@ -86,7 +86,7 @@ Simulates enabling/modifying the Guest account and granting RDP & admin privileg
 
 **Expected Logs:**  
 `4798, 4722, 4738, 4724, 4732`
-![imagealt]()
+![imagealt](https://github.com/pwrod/Azure-Detection-Lab/blob/main/images/Atomic%20T1078%20logs.png?raw=true)
 ---
 
 ## Test 2: T1059.001 – PowerShell Execution
