@@ -29,6 +29,7 @@ This lab simulates an enterprise Windows environment inside Azure to practice Ac
 
 ## Attack-VNET
 - **Kali** – Kali Linux 2025.3 (Attack platform)
+![imagealt](https://github.com/pwrod/Azure-Detection-Lab/blob/main/images/VMs.png?raw=true)
 
 ---
 
@@ -68,7 +69,8 @@ Performed an RDP brute-force attack from the **Kali machine**:
 
 ### Splunk Observed Events
 - **4625** – Failed logon attempts  
-- **4624** – Successful logon  
+- **4624** – Successful logon
+![imagealt]()
 
 ---
 
@@ -84,7 +86,7 @@ Simulates enabling/modifying the Guest account and granting RDP & admin privileg
 
 **Expected Logs:**  
 `4798, 4722, 4738, 4724, 4732`
-
+![imagealt]()
 ---
 
 ## Test 2: T1059.001 – PowerShell Execution
@@ -102,7 +104,7 @@ Simulates tampering with the Windows Event Logging service.
 
 **Expected Logs:**  
 `1100`
-
+![imagealt]()
 ---
 
 # 7. Skills Learned
