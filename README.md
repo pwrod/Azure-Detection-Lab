@@ -107,6 +107,7 @@ Simulates tampering with the Windows Event Logging service.
 **Expected Logs:**  
 `1100`
 
+
 ![imagealt](https://github.com/pwrod/Azure-Detection-Lab/blob/main/images/Atomic%20logs%20T1562.png?raw=true)
 ---
 
