@@ -86,6 +86,7 @@ Simulates enabling/modifying the Guest account and granting RDP & admin privileg
 
 **Expected Logs:**  
 `4798, 4722, 4738, 4724, 4732`
+
 ![imagealt](https://github.com/pwrod/Azure-Detection-Lab/blob/main/images/Atomic%20T1078%20logs.png?raw=true)
 ---
 
@@ -95,6 +96,7 @@ Simulates malicious PowerShell scripting activity.
 
 **Expected Logs:**  
 `4648` (plus Sysmon process creation logs)
+
 ![altimage](https://github.com/pwrod/Azure-Detection-Lab/blob/main/images/Atomic%20logs%20T1059.png?raw=true)
 ---
 
@@ -104,6 +106,7 @@ Simulates tampering with the Windows Event Logging service.
 
 **Expected Logs:**  
 `1100`
+
 ![imagealt](https://github.com/pwrod/Azure-Detection-Lab/blob/main/images/Atomic%20logs%20T1562.png?raw=true)
 ---
 
